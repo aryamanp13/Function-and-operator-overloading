@@ -6,12 +6,26 @@ To study function and operator overloading
 # Theory:
 
 Function Overloading:
-Function overloading is a feature in C++ that allows you to define multiple functions with the same name but with different parameters.
-The compiler differentiates these functions based on the number and/or type of their parameters.
+Function overloading is a feature in programming languages that allows you to define multiple functions with the same name but different parameters. These functions can have different types, numbers, or orders of parameters. The compiler determines which function to call based on the arguments provided during the function call.   
 
-Operator Overloading
-Operator overloading is a feature in C++ that allows developers to redefine the way operators work for user-defined types (such as classes).
-This enables you to use operators like +, -, *, and others with objects of your classes in a way that is intuitive and similar to built-in types.
+Key Points:
+
+Same Name: The overloaded functions must have the same name.
+Different Parameters: The functions must have different parameters in terms of their types, numbers, or orders.
+Parameter Matching: The compiler matches the arguments provided in the function call with the parameters of the available overloaded functions.
+Return Type: The return types of overloaded functions can be the same or different.
+
+
+Operator Overloading:
+
+Operator overloading is a feature in programming languages that allows you to redefine the behavior of built-in operators for custom data types. It enables you to customize how these operators work when applied to objects of your own classes.
+
+Key Points:
+
+Custom Data Types: Operator overloading is typically used to define the behavior of operators for classes that you create.
+Built-in Operators: You can overload most built-in operators, such as arithmetic operators (+, -, *, /, %), comparison operators (==, !=, <, >, <=, >=), assignment operators (=), and logical operators (&&, ||).
+Overloaded Functions: Operator overloading is achieved by defining functions that have specific signatures. The compiler automatically calls these functions when the corresponding operator is used with objects of your class.
+Custom Behavior: You can implement any desired behavior within the overloaded functions to determine how the operator will operate on your objects.
 
 ## Algorithm: Addtion using function overloading
 
